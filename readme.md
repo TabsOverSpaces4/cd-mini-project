@@ -3,18 +3,12 @@ Compiler Design Mini-Project
 
 # Lexical Analyser for a subset of the C langauge
 
-### Team Members
- 1. Pranjay Poddar - RA1911028010129
- 2. Darshil Shah - RA1911028010121
- 3. Sathwika Roy - RA1911028010132
+### Our Team
+ 1. Manit Nahar (RA1911028010100)
+ 2. Harsh Gupta (RA1911028010118)
+ 3. Eshanika Ray (RA1911028010123)
 
 This folder contains the code for the Lexical Analyser.
 
-|file|contents|
-|----|--------|
-|lexel.l|lex file with rules|
-|symboltable.h|symbol table implementation using hash organisation|
-|tokens.h| tokens used (as enums)|
-
-The test cases are in the test-cases folder.
-The details about each test case is written in the header section of each file.
+## Designing a scanner for C language
+We have used Flex to perform lexical analysis on a subset of the C programming language. Flex is a lexical analyzer generator that takes in a set of descriptions of possible tokens and produces a C file that performs lexical analysis and identifies the tokens.
